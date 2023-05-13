@@ -1,4 +1,4 @@
-# RESTful Flask API 🌶️
+# 🌶️ RESTful Flask API
 
 Esta API foi desenvolvida utilizando o framework Flask, com o objetivo de fornecer funcionalidades para o gerenciamento de usuários e itens em um banco de dados PostgreSQL. O código da API está dividido em três arquivos: `main.py`, `server.py` e `database.py`.
 

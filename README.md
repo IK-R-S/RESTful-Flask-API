@@ -13,7 +13,7 @@ psycopg2==2.9.6
 psycopg2-binary==2.9.1
 Werkzeug==2.0.0
 ```
-Para facilitar execute a instalação automática pelo arquivo `requirements.txt`:
+Para facilitar seu trabalho execute a instalação automática pelo arquivo `requirements.txt`:
 ```
 pip3 install -r requirements.txt
 ```
@@ -35,7 +35,7 @@ A API possui as seguintes rotas:
 
 #### GET /
 
-Rota raiz, redireciona para um site específico, sendo o deste repositório no código fonte. Caso queira pode inserir qualquer outra URL ou trocar
+Rota raiz, redireciona para um site específico sendo o deste repositório no código fonte. Caso queira é possível inserir qualquer outra URL ou trocar
 a lógica para sua rota ter outra response como uma informação específica.
 
 #### GET /status
@@ -52,7 +52,7 @@ Realiza a autenticação de um usuário com base no email e senha. É necessári
 
 #### GET /api/dashboard
 
-Retorna informações do dashboard do usuário autenticado.
+Retorna informações à dashboard do usuário autenticado.
 
 #### POST /api/create-item
 
@@ -64,4 +64,4 @@ Retorna informações sobre um item específico no banco de dados.
 
 ## Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou pull request.
+Contribuições são bem-vindas. Sinta-se à vontade para abrir uma issue ou pull request. Não esqueça de dar um **star** no repositório, assim alcançamos mais gente! ⭐

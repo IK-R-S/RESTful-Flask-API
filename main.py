@@ -11,9 +11,9 @@ app.config['JWT_SECRET_KEY'] = secrets.token_urlsafe(32) # 32 é o tamanho da ch
 
 CORS(app) # Evitando problemas de conexão via CORS
 
-@app.route('/', methods=['GET']) # Rota raiz redirecionando para uma URL, em aplicações redirecione para a página do site da sua empresa
+@app.route('/', methods=['GET']) # Rota raiz redirecionando para uma URL, em aplicações redirecione para a página do site da sua empresa ou projeto
 def index():
-    return redirect('https://www.youtube.com/watch?v=O91DT1pR1ew')
+    return redirect('https://github.com/IK-R-S/RESTful-Flask-API')
 
 @app.route('/status', methods=['GET'])
 def status():
